@@ -1,4 +1,4 @@
-const unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebAR_Markers_new.json");
+const unityInstance = UnityLoader.instantiate("unityContainer", "Build/MultiMarker.json");
 let isCameraReady = false;
 let isDetectionManagerReady = false;
 let gl = null;
